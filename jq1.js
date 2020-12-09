@@ -2,6 +2,10 @@ function hideAll() {
     $("#sasm").hide();
 
     $("#gal").hide();
+    
+    $("#options").hide();
+    
+    $("#sub").hide();
 }
 
 hideAll();
@@ -14,7 +18,9 @@ $("#bt2").click(function () { hideAll();
     $("#gal").fadeIn(600).show();
 });
 
-
+$("#bt4").click(function () { hideAll();
+    $("#sub").fadeIn(600).show();
+});
 var active = 1;
 
 $("#left").click(function () {
@@ -33,4 +39,16 @@ $("#right").click(function () {
         active = 8;
     }
     $("#shown").attr("src", active + ".jpg");
+});
+
+var uname;
+var pass;
+var age;
+var comp;
+$("#send").click(function(){
+    uname = $("#uname").text.val; console.log(uname);
+    debugger;
+    pass = $("#pass").text.val;
+    age = $("#age").text.val;
+    comp = $("#comp").text.val;
 });
