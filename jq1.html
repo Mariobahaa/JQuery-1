@@ -10,7 +10,15 @@
         <div>
         <input type="button" id="bt1" value="About" class="bt">
         <input type="button" id="bt2" value="Gallery" class="bt">
-        <input type="button" id="bt3" value="Services" class="bt">
+        <ul  value="Services">
+            <li><input type="button" id="bt3" value="Services" class="bt"></li>
+            <span id=opt>
+            <li>option 1</li>
+            <li>option 2</li>
+            <li>option 3</li>
+            </span>
+        </ul>
+       <!-- <input type="d" id="bt3" value="Services" class="bt">-->
         <input type="button" id="bt4" value="Complain" class="bt">
         </div>
         <br>
@@ -32,14 +40,9 @@
             <label>Do you wanna build a snowman?</label>
         </div>
         
-        <div id="options">
-            <div class="op" id="op1">Option 1</div>
-            <div class="op" id="op2">Option 2</div>
-            <div class="op" id="op3">Option 3</div>
-        </div>
+
         
         <div id="sub">
-            <form >
                 <label>Name </label> <input type="text" name="uname" id="uname" value =""><br><br>
                 <label>Password </label> <input type="password" name="pass" id="pass" value =""><br><br>
                 <label>Age </label> <input type="text" name="age" id="age" value =""><br><br>
@@ -47,8 +50,7 @@
                 <br>
                <input type="text" name="comp" id="comp" value ="" width="100px" height="70px" ><br><br>
                 <button id="send">Send</button>
-                
-            </form>
+       
         </div>
         
         <script src="jq1.js"></script>

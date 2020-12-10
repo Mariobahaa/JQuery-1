@@ -3,7 +3,7 @@ function hideAll() {
 
     $("#gal").hide();
     
-    $("#options").hide();
+    $("#opt").hide();
     
     $("#sub").hide();
 }
@@ -46,9 +46,9 @@ var pass;
 var age;
 var comp;
 $("#send").click(function(){
-    uname = $("#uname").text.val; console.log(uname);
-    debugger;
-    pass = $("#pass").text.val;
-    age = $("#age").text.val;
-    comp = $("#comp").text.val;
+    uname = $("#uname").val(); console.log(uname);
+    //debugger;
+    pass = $("#pass").html();
+    age = $("#age").html();
+    comp = $("#comp").html();
 });
