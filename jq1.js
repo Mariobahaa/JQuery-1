@@ -8,6 +8,8 @@ function hideAll() {
     $("#sub").hide();
     
     $("#sube").hide();
+    
+    $("#abc").hide();
 }
 
 hideAll();
@@ -45,6 +47,15 @@ $("#right").click(function () {
     }
     $("#shown").attr("src", active + ".jpg");
 });
+
+
+$("#bt3").click(function(){
+    hideAll();
+    $("#abc").slideDown(500);
+    /*$("#o1").slideDown(500);
+     $("#o2").slideDown(500);
+     $("#o3").slideDown(500);*/
+})
 
 var uname;
 var pass;

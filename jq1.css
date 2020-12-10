@@ -8,7 +8,6 @@
     border-radius: 25px;
     font-family: cursive;
     font-size: 24;
-    display: inline;
 }
 
 body{
@@ -20,11 +19,14 @@ body{
     background-color: crimson;
     width: 150px;
     height: 100px;
-    display: inline;
     color: white;
+
     
 }
 
+.ser{
+    display: inline;
+}
 #shown{
     width: 350px;
     height: 300px;
@@ -73,11 +75,22 @@ body{
 }
 
 ul{
-    display: inline;
+    display: inline-block;
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
-li{
+.ser{
     display: inline;
+}
+
+.a{
+    border: 3px red solid;
+      position: absolute;
+        left: 50%;
+}
+
+
+li{
 }
