@@ -59,10 +59,10 @@ var pass;
 var age;
 var comp;
 $("#send").click(function () {
-    uname = $("#uname").val(); $("#uname").val('');
-    pass = $("#pass").val(); $("#pass").val('');
-    age = $("#age").val();  $("#age").val('');
-    comp = $("#comp").val(); $("#comp").val('');
+    uname = $("#uname").val(); //$("#uname").val('');
+    pass = $("#pass").val(); //$("#pass").val('');
+    age = $("#age").val();  //$("#age").val('');
+    comp = $("#comp").val(); //$("#comp").val('');
     $("#sub").fadeOut(1200).hide();
     $("#sube").fadeIn(800).show();
     $("#sube").css("text-align","left");    
