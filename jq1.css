@@ -10,6 +10,14 @@
     font-size: 24;
 }
 
+#abc{
+    width: 150px;
+    color: white;
+
+    font-family: cursive;
+    font-size: 20;
+}
+
 body{
     
     text-align: center;
@@ -20,8 +28,6 @@ body{
     width: 150px;
     height: 100px;
     color: white;
-
-    
 }
 
 .ser{
@@ -86,11 +92,23 @@ ul{
 }
 
 .a{
-    border: 3px red solid;
+    /*border: 3px red solid;*/
       position: absolute;
         left: 50%;
 }
 
+.o{
+    width: 150px;
+    height: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: crimson;
+}
 
-li{
+#ed{
+    text-align: center;
+    font-size: 18;
+    
 }

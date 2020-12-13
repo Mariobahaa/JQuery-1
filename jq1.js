@@ -52,9 +52,6 @@ $("#right").click(function () {
 $("#bt3").click(function(){
     hideAll();
     $("#abc").slideDown(500);
-    /*$("#o1").slideDown(500);
-     $("#o2").slideDown(500);
-     $("#o3").slideDown(500);*/
 })
 
 var uname;
@@ -75,4 +72,10 @@ $("#send").click(function () {
     $("#sube").children()[5].append(age);
     console.log(comp);
     $("#sube").children()[10].append(comp);
+});
+
+$("#edit").click(function(){
+    hideAll();
+    $("#sub").fadeIn(600);
+    
 });
